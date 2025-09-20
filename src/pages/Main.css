@@ -1,0 +1,30 @@
+div h1{
+    color:black
+}
+.entry{
+    display: inline;
+}
+
+.The{
+    z-index: 1000;
+}
+
+
+.add-fixed-btn{
+    border-radius: 50%;
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+    z-index: 1000;
+}
+
+.add-fixed-btn:hover{
+ border-color: #1f5e7d;
+}
+
+.today-plan{
+    font-size:17px;
+    min-height: 250px;
+}
+
+

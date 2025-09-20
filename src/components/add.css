@@ -1,0 +1,36 @@
+label{
+    color: black;
+
+}
+
+input {
+    background-color: white;
+    border-radius: 8px;
+    
+}
+i{
+    background-color: white;
+    color: black;
+}
+.close{
+    background-color: white;
+    margin-left:  auto;
+}
+.top{
+    background-color: gray;
+    border-radius: 20px 20px 0 0;
+}
+
+.add-container{
+    border: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 5px;
+}
+
+.body{
+    padding-top: 5px;
+}
+
+.title::first-letter{
+    text-transform: uppercase;
+}

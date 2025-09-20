@@ -1,0 +1,43 @@
+ul label{
+    color:black;
+} 
+body{
+    color:black;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 30px;
+}
+
+.group-list li{
+    border: 1px solid black;
+    
+    margin: 2px;
+    box-shadow: gray 4px 1px 4px;
+    margin: 0 auto;
+}
+
+.group-list li:hover{
+    box-shadow: gray -4px -4px 4px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5em;
+  font-size: 1.5rem;
+  color: black;
+
+}
+
+.old-tasks-container{
+    border: 1px gray solid;
+    border-radius: 20px;
+    max-width: 380px;
+    margin: 0 auto;
+    
+}
