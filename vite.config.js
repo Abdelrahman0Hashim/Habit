@@ -2,12 +2,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig(({ command }) => {
-  const isProduction = command === 'build';
-  const base = isProduction ? '/Habit/' : '/';
-
-  return {
-    base,
+export default defineConfig({
+    base:'/Habit/',
     plugins: [react()],
-  };
 });
